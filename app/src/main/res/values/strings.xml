@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sosafe Challenge</string>
+    <string name="fragment_main_load">Cargar Imagen</string>
+    <string name="activity_main_load">Cargar imagen</string>
+    <string name="activity_main_error_image">Debes ingresar una url para cargar imagen</string>
+    <string name="activity_main_hint_url">Ingrese Url</string>
+    <string name="main_activity_error_image">Error al cargar imagen, intente nuevamente</string>
+</resources>
