@@ -62,7 +62,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onSaveInstanceState(Bundle outState) {
         BitmapDrawable drawable = (BitmapDrawable) mImage.getDrawable();
         Bitmap bitmap = drawable.getBitmap();
-        outState.putParcelable(SAVED_INSTANCE_IMAGE, bitmap);
+        
+        if(bitmap != null)
+            outState.putParcelable(SAVED_INSTANCE_IMAGE, bitmap);
 
         super.onSaveInstanceState(outState);
     }
